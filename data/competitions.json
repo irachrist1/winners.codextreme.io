@@ -1,0 +1,24 @@
+{
+  "competitions": [
+    {
+      "id": "codextreme-2025",
+      "name": "CodeXtreme 2025",
+      "year": 2025,
+      "status": "past",
+      "theme": "Build Things People Need: High-Value, High-Impact Tech Solutions",
+      "startDate": "2025-02-26",
+      "endDate": "2025-03-01",
+      "location": "Kigali, Rwanda",
+      "participantCount": 250,
+      "projectsSubmitted": 64,
+      "prizePool": "$5,000",
+      "thumbnailUrl": "/images/competitions/codextreme-2025.jpg",
+      "description": "Africa's premier student hackathon bringing together 250+ participants for 4 days of learning, building, and sharing.",
+      "highlights": [
+        "250+ participants from 5 universities",
+        "64 project submissions",
+        "$5,000 in prizes"
+      ]
+    }
+  ]
+}

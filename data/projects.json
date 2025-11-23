@@ -1,0 +1,127 @@
+{
+  "projects": [
+    {
+      "id": "l-guard-2025",
+      "competitionId": "codextreme-2025",
+      "name": "L-Guard",
+      "tagline": "Smart helmet system for road safety",
+      "description": "A smart helmet system to enhance road safety for motorcyclists and bicyclists in Rwanda. Features real-time monitoring, collision detection, and emergency alerts.",
+      "rank": 1,
+      "prize": "$2,000",
+      "category": "Hardware & IoT",
+      "teamName": "SafeRide Team",
+      "members": [
+        {
+          "name": "Jean Claude Habimana",
+          "role": "Hardware Engineer",
+          "university": "University of Rwanda",
+          "photoUrl": "/images/team/default-avatar.jpg",
+          "linkedin": "https://linkedin.com/in/",
+          "github": "https://github.com/"
+        }
+      ],
+      "techStack": ["Arduino", "React Native", "Firebase", "GPS"],
+      "problemStatement": "Motorcycle accidents are a leading cause of death in Rwanda, with many riders lacking proper safety equipment and emergency response systems.",
+      "solution": "We developed a smart helmet with integrated sensors for collision detection, GPS tracking, and automatic emergency alerts. The companion mobile app provides real-time monitoring and emergency contact notifications.",
+      "impact": "Potential to reduce motorcycle fatalities by 30% through early detection and rapid emergency response.",
+      "thumbnailUrl": "/images/projects/l-guard-thumbnail.jpg",
+      "images": [
+        "/images/projects/l-guard-1.jpg",
+        "/images/projects/l-guard-2.jpg"
+      ],
+      "demoUrl": "https://lguard.app",
+      "githubUrl": "https://github.com/team/l-guard",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "presentationUrl": "https://docs.google.com/presentation/",
+      "judgesComments": "Impressive hardware integration and clear market need. Well-executed prototype with strong potential for real-world impact.",
+      "scoreBreakdown": {
+        "innovation": 24,
+        "technical": 23,
+        "impact": 25,
+        "presentation": 22
+      }
+    },
+    {
+      "id": "ndimension-2025",
+      "competitionId": "codextreme-2025",
+      "name": "Ndimension",
+      "tagline": "AI-powered diagnostic tool for healthcare",
+      "description": "An AI-powered diagnostic platform that helps healthcare workers in rural areas diagnose common diseases using smartphone cameras and machine learning.",
+      "rank": 2,
+      "prize": "$1,500",
+      "category": "AI & Healthcare",
+      "teamName": "HealthTech Innovators",
+      "members": [
+        {
+          "name": "Marie Uwase",
+          "role": "AI Engineer",
+          "university": "African Leadership University",
+          "photoUrl": "/images/team/default-avatar.jpg",
+          "linkedin": "https://linkedin.com/in/",
+          "github": "https://github.com/"
+        }
+      ],
+      "techStack": ["Python", "TensorFlow", "React", "Node.js"],
+      "problemStatement": "Rural healthcare facilities lack diagnostic equipment and specialists, leading to misdiagnosis and delayed treatment.",
+      "solution": "Our platform uses computer vision and machine learning to analyze images from smartphone cameras, providing preliminary diagnoses for common conditions. It supports offline functionality for areas with limited connectivity.",
+      "impact": "Enabling accurate diagnoses in remote areas, potentially serving 10,000+ patients in rural Rwanda.",
+      "thumbnailUrl": "/images/projects/ndimension-thumbnail.jpg",
+      "images": [
+        "/images/projects/ndimension-1.jpg",
+        "/images/projects/ndimension-2.jpg"
+      ],
+      "demoUrl": "https://ndimension.health",
+      "githubUrl": "https://github.com/team/ndimension",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "presentationUrl": "https://docs.google.com/presentation/",
+      "judgesComments": "Strong technical implementation with significant healthcare impact. Offline functionality is a game-changer for rural deployment.",
+      "scoreBreakdown": {
+        "innovation": 23,
+        "technical": 24,
+        "impact": 24,
+        "presentation": 21
+      }
+    },
+    {
+      "id": "sentra-safeguard-2025",
+      "competitionId": "codextreme-2025",
+      "name": "Sentra Safeguard",
+      "tagline": "GPS-based safety alerts for vulnerable communities",
+      "description": "A mobile safety application that provides real-time location tracking, emergency alerts, and community safety features for vulnerable populations.",
+      "rank": 3,
+      "prize": "$1,000",
+      "category": "Mobile & Safety",
+      "teamName": "SafeZone Team",
+      "members": [
+        {
+          "name": "David Nkurunziza",
+          "role": "Mobile Developer",
+          "university": "Carnegie Mellon University Africa",
+          "photoUrl": "/images/team/default-avatar.jpg",
+          "linkedin": "https://linkedin.com/in/",
+          "github": "https://github.com/"
+        }
+      ],
+      "techStack": ["Flutter", "Firebase", "Google Maps API", "WebSockets"],
+      "problemStatement": "Women and vulnerable groups face safety concerns when traveling, especially in unfamiliar areas or at night.",
+      "solution": "Sentra Safeguard provides one-touch emergency alerts, live location sharing with trusted contacts, and crowdsourced safety ratings for different areas. The app includes an AI-powered risk assessment feature.",
+      "impact": "Creating safer communities by empowering users with real-time safety information and rapid emergency response.",
+      "thumbnailUrl": "/images/projects/sentra-thumbnail.jpg",
+      "images": [
+        "/images/projects/sentra-1.jpg",
+        "/images/projects/sentra-2.jpg"
+      ],
+      "demoUrl": "https://sentra-safeguard.app",
+      "githubUrl": "https://github.com/team/sentra-safeguard",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "presentationUrl": "https://docs.google.com/presentation/",
+      "judgesComments": "Well-designed solution addressing a critical social need. Strong UX and community-focused features.",
+      "scoreBreakdown": {
+        "innovation": 22,
+        "technical": 22,
+        "impact": 23,
+        "presentation": 24
+      }
+    }
+  ]
+}
