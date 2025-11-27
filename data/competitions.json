@@ -19,6 +19,46 @@
         "64 project submissions",
         "$5,000 in prizes"
       ]
+    },
+    {
+      "id": "codextreme-2024",
+      "name": "CodeXtreme 2024",
+      "year": 2024,
+      "status": "past",
+      "theme": "Innovation for Sustainable Development",
+      "startDate": "2024-03-15",
+      "endDate": "2024-03-18",
+      "location": "Kigali, Rwanda",
+      "participantCount": 180,
+      "projectsSubmitted": 48,
+      "prizePool": "$4,000",
+      "thumbnailUrl": "/images/competitions/codextreme-2024.jpg",
+      "description": "Second edition of Africa's premier student hackathon focusing on sustainable technology solutions.",
+      "highlights": [
+        "180+ participants from 4 universities",
+        "48 project submissions",
+        "$4,000 in prizes"
+      ]
+    },
+    {
+      "id": "codextreme-2023",
+      "name": "CodeXtreme 2023",
+      "year": 2023,
+      "status": "past",
+      "theme": "Tech for Social Good",
+      "startDate": "2023-04-10",
+      "endDate": "2023-04-13",
+      "location": "Kigali, Rwanda",
+      "participantCount": 120,
+      "projectsSubmitted": 32,
+      "prizePool": "$3,000",
+      "thumbnailUrl": "/images/competitions/codextreme-2023.jpg",
+      "description": "Inaugural edition of CodeXtreme hackathon launching Africa's next generation of tech innovators.",
+      "highlights": [
+        "120+ participants from 3 universities",
+        "32 project submissions",
+        "$3,000 in prizes"
+      ]
     }
   ]
 }

@@ -10,7 +10,13 @@
       "Bash(nul)",
       "Bash(netstat:*)",
       "Bash(findstr:*)",
-      "Bash(cmd.exe //c \"taskkill //F //PID 21064\")"
+      "Bash(cmd.exe //c \"taskkill //F //PID 21064\")",
+      "Bash(if exist .next rmdir /s /q .next)",
+      "Bash(powershell -Command \"Stop-Process -Id 21064 -Force\")",
+      "Bash(powershell -Command:*)",
+      "Bash(npm run build:*)",
+      "Bash(move codextreme-logo.svg public/images/codextreme-logo.svg)",
+      "Bash(move codextreme-logo.svg publicimagescodextreme-logo.svg)"
     ],
     "deny": [],
     "ask": []

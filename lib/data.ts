@@ -31,6 +31,7 @@ export interface TeamMember {
 export interface Project {
   id: string;
   competitionId: string;
+  competitionYear: number; // Derived from competition
   name: string;
   tagline: string;
   description: string;
@@ -72,28 +73,48 @@ export interface Participant {
 
 // Get all competitions
 export function getCompetitions(): Competition[] {
-  return competitionsData.competitions;
+  return competitionsData.competitions as Competition[];
 }
 
 // Get competition by ID
 export function getCompetitionById(id: string): Competition | undefined {
-  return competitionsData.competitions.find((comp) => comp.id === id);
+  return (competitionsData.competitions as Competition[]).find((comp) => comp.id === id);
 }
 
 // Get all projects
 export function getProjects(): Project[] {
-  return projectsData.projects;
+  return projectsData.projects.map((project: any) => {
+    const competition = getCompetitionById(project.competitionId);
+    return {
+      ...project,
+      competitionYear: competition?.year || new Date().getFullYear(),
+    };
+  });
 }
 
 // Get project by ID
 export function getProjectById(id: string): Project | undefined {
-  return projectsData.projects.find((proj) => proj.id === id);
+  const project = projectsData.projects.find((proj: any) => proj.id === id);
+  if (!project) return undefined;
+
+  const competition = getCompetitionById(project.competitionId);
+  return {
+    ...project,
+    competitionYear: competition?.year || new Date().getFullYear(),
+  };
 }
 
 // Get projects by competition ID
 export function getProjectsByCompetition(competitionId: string): Project[] {
+  const competition = getCompetitionById(competitionId);
+  const year = competition?.year || new Date().getFullYear();
+
   return projectsData.projects
-    .filter((proj) => proj.competitionId === competitionId)
+    .filter((proj: any) => proj.competitionId === competitionId)
+    .map((proj: any) => ({
+      ...proj,
+      competitionYear: year,
+    }))
     .sort((a, b) => a.rank - b.rank);
 }
 
@@ -104,10 +125,10 @@ export function getTopProjects(competitionId: string, limit: number = 3): Projec
 
 // Get all participants
 export function getParticipants(): Participant[] {
-  return participantsData.participants;
+  return participantsData.participants as Participant[];
 }
 
 // Get participant by ID
 export function getParticipantById(id: string): Participant | undefined {
-  return participantsData.participants.find((part) => part.id === id);
+  return (participantsData.participants as Participant[]).find((part) => part.id === id);
 }

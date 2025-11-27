@@ -122,6 +122,86 @@
         "impact": 23,
         "presentation": 24
       }
+    },
+    {
+      "id": "agriconnect-2025",
+      "competitionId": "codextreme-2025",
+      "name": "AgriConnect",
+      "tagline": "Connecting farmers to markets via blockchain",
+      "description": "A blockchain-based platform connecting smallholder farmers directly to buyers, eliminating middlemen and ensuring fair pricing through smart contracts.",
+      "rank": 4,
+      "prize": "$500",
+      "category": "Blockchain & AgTech",
+      "teamName": "FarmChain Innovators",
+      "members": [
+        {
+          "name": "Patience Uwera",
+          "role": "Blockchain Developer",
+          "university": "University of Rwanda",
+          "photoUrl": "/images/team/default-avatar.jpg",
+          "linkedin": "https://linkedin.com/in/",
+          "github": "https://github.com/"
+        }
+      ],
+      "techStack": ["Solidity", "Ethereum", "React", "IPFS"],
+      "problemStatement": "Smallholder farmers lose 40% of their earnings to middlemen who exploit information asymmetry in agricultural markets.",
+      "solution": "AgriConnect uses blockchain technology to create transparent supply chains, with smart contracts ensuring automatic payment upon delivery verification. Farmers can list products directly, and buyers can verify origin and quality.",
+      "impact": "Potential to increase farmer income by 35% while reducing food waste through direct market access.",
+      "thumbnailUrl": "/images/projects/agriconnect-thumbnail.jpg",
+      "images": [
+        "/images/projects/agriconnect-1.jpg"
+      ],
+      "demoUrl": "https://agriconnect.rw",
+      "githubUrl": "https://github.com/team/agriconnect",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "presentationUrl": "https://docs.google.com/presentation/",
+      "judgesComments": "Innovative use of blockchain for social impact. Strong business model with clear value proposition.",
+      "scoreBreakdown": {
+        "innovation": 23,
+        "technical": 20,
+        "impact": 22,
+        "presentation": 20
+      }
+    },
+    {
+      "id": "edustream-2025",
+      "competitionId": "codextreme-2025",
+      "name": "EduStream",
+      "tagline": "Offline-first education platform for remote areas",
+      "description": "An adaptive learning platform that works offline, syncing content when connectivity is available. Uses AI to personalize learning paths for students in areas with limited internet access.",
+      "rank": 5,
+      "prize": "$500",
+      "category": "EdTech",
+      "teamName": "LearnLab",
+      "members": [
+        {
+          "name": "Emmanuel Mugisha",
+          "role": "Full Stack Developer",
+          "university": "African Leadership University",
+          "photoUrl": "/images/team/default-avatar.jpg",
+          "linkedin": "https://linkedin.com/in/",
+          "github": "https://github.com/"
+        }
+      ],
+      "techStack": ["PWA", "IndexedDB", "Python", "TensorFlow Lite"],
+      "problemStatement": "Students in rural Rwanda miss 60% of online learning opportunities due to unreliable internet connectivity.",
+      "solution": "EduStream is a Progressive Web App that downloads lessons when online, then works completely offline. AI algorithms adapt content difficulty based on student performance, all running locally on the device.",
+      "impact": "Enabling continuous education for 50,000+ students in areas with intermittent connectivity.",
+      "thumbnailUrl": "/images/projects/edustream-thumbnail.jpg",
+      "images": [
+        "/images/projects/edustream-1.jpg"
+      ],
+      "demoUrl": "https://edustream.app",
+      "githubUrl": "https://github.com/team/edustream",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "presentationUrl": "https://docs.google.com/presentation/",
+      "judgesComments": "Excellent offline-first architecture. Addresses a critical educational gap with technical excellence.",
+      "scoreBreakdown": {
+        "innovation": 21,
+        "technical": 23,
+        "impact": 21,
+        "presentation": 20
+      }
     }
   ]
 }

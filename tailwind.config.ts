@@ -8,9 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          'var(--font-inter)',
+          'Inter',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'sans-serif',
+        ],
+      },
       colors: {
         brand: {
-          purple: "hsl(var(--brand-purple) / <alpha-value>)",
+          red: "hsl(var(--brand-red) / <alpha-value>)",
           blue: "hsl(var(--brand-blue) / <alpha-value>)",
           green: "hsl(var(--brand-green) / <alpha-value>)",
           orange: "hsl(var(--brand-orange) / <alpha-value>)",

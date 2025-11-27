@@ -1,3 +1,89 @@
 {
-  "participants": []
+  "participants": [
+    {
+      "id": "jean-claude-habimana",
+      "name": "Jean Claude Habimana",
+      "university": "University of Rwanda",
+      "photoUrl": "/images/participants/jean-claude.jpg",
+      "bio": "Hardware engineer passionate about IoT solutions for road safety. Winner of codeXtreme 2025 with L-Guard smart helmet system.",
+      "projectIds": ["l-guard-2025"],
+      "achievements": ["Arduino", "IoT", "Hardware Design", "React Native", "Firebase"],
+      "linkedin": "https://linkedin.com/in/jeanclaudehabimana",
+      "github": "https://github.com/jchabimana"
+    },
+    {
+      "id": "alice-uwase",
+      "name": "Alice Uwase",
+      "university": "University of Rwanda",
+      "photoUrl": "/images/participants/alice.jpg",
+      "bio": "AI/ML engineer focused on healthcare applications. Developed Ndimension, an AI-powered diagnostic tool for rural healthcare.",
+      "projectIds": ["ndimension-2025"],
+      "achievements": ["Python", "TensorFlow", "Computer Vision", "Healthcare AI", "Machine Learning"],
+      "linkedin": "https://linkedin.com/in/aliceuwase",
+      "github": "https://github.com/auwase"
+    },
+    {
+      "id": "eric-mugisha",
+      "name": "Eric Mugisha",
+      "university": "Carnegie Mellon University Africa",
+      "photoUrl": "/images/participants/eric.jpg",
+      "bio": "Full-stack developer with expertise in fintech solutions. Created Aguka Pay, a mobile payment platform for farmers.",
+      "projectIds": ["aguka-pay-2025"],
+      "achievements": ["Node.js", "React", "Mobile Payments", "Blockchain", "Flutter"],
+      "linkedin": "https://linkedin.com/in/ericmugisha",
+      "github": "https://github.com/emugisha"
+    },
+    {
+      "id": "diane-nsabimana",
+      "name": "Diane Nsabimana",
+      "university": "African Leadership University",
+      "photoUrl": "/images/participants/diane.jpg",
+      "bio": "EdTech enthusiast and software engineer. Passionate about making education accessible through technology.",
+      "projectIds": [],
+      "achievements": ["Vue.js", "Python", "Django", "UI/UX Design", "EdTech"],
+      "linkedin": "https://linkedin.com/in/dianensabimana",
+      "github": "https://github.com/dnsabimana"
+    },
+    {
+      "id": "patrick-niyonzima",
+      "name": "Patrick Niyonzima",
+      "university": "University of Rwanda",
+      "photoUrl": "/images/participants/patrick.jpg",
+      "bio": "Data scientist and AI researcher. Interested in using ML to solve African challenges in agriculture and climate.",
+      "projectIds": [],
+      "achievements": ["Data Science", "Python", "R", "Machine Learning", "Climate Tech"],
+      "linkedin": "https://linkedin.com/in/patrickniyonzima"
+    },
+    {
+      "id": "marie-claire-umutoni",
+      "name": "Marie Claire Umutoni",
+      "university": "Carnegie Mellon University Africa",
+      "photoUrl": "/images/participants/marie.jpg",
+      "bio": "Cybersecurity specialist and ethical hacker. Focused on building secure systems for African businesses.",
+      "projectIds": [],
+      "achievements": ["Cybersecurity", "Penetration Testing", "Network Security", "Ethical Hacking"],
+      "github": "https://github.com/mcumutoni"
+    },
+    {
+      "id": "kevin-nkurunziza",
+      "name": "Kevin Nkurunziza",
+      "university": "African Leadership University",
+      "photoUrl": "/images/participants/kevin.jpg",
+      "bio": "Mobile app developer specializing in Android and iOS. Building apps that connect communities and solve local problems.",
+      "projectIds": [],
+      "achievements": ["Kotlin", "Swift", "Flutter", "Mobile Development", "UI/UX"],
+      "linkedin": "https://linkedin.com/in/kevinnkurunziza",
+      "github": "https://github.com/knkurunziza"
+    },
+    {
+      "id": "grace-uwera",
+      "name": "Grace Uwera",
+      "university": "University of Rwanda",
+      "photoUrl": "/images/participants/grace.jpg",
+      "bio": "Cloud architect and DevOps engineer. Passionate about building scalable infrastructure for African startups.",
+      "projectIds": [],
+      "achievements": ["AWS", "Docker", "Kubernetes", "CI/CD", "Cloud Architecture"],
+      "linkedin": "https://linkedin.com/in/graceuwera"
+    }
+  ]
 }
