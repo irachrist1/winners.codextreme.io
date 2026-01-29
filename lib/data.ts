@@ -72,27 +72,27 @@ export interface Participant {
 
 // Get all competitions
 export function getCompetitions(): Competition[] {
-  return competitionsData.competitions;
+  return competitionsData.competitions as Competition[];
 }
 
 // Get competition by ID
 export function getCompetitionById(id: string): Competition | undefined {
-  return competitionsData.competitions.find((comp) => comp.id === id);
+  return (competitionsData.competitions as Competition[]).find((comp) => comp.id === id);
 }
 
 // Get all projects
 export function getProjects(): Project[] {
-  return projectsData.projects;
+  return projectsData.projects as Project[];
 }
 
 // Get project by ID
 export function getProjectById(id: string): Project | undefined {
-  return projectsData.projects.find((proj) => proj.id === id);
+  return (projectsData.projects as Project[]).find((proj) => proj.id === id);
 }
 
 // Get projects by competition ID
 export function getProjectsByCompetition(competitionId: string): Project[] {
-  return projectsData.projects
+  return (projectsData.projects as Project[])
     .filter((proj) => proj.competitionId === competitionId)
     .sort((a, b) => a.rank - b.rank);
 }
@@ -104,10 +104,10 @@ export function getTopProjects(competitionId: string, limit: number = 3): Projec
 
 // Get all participants
 export function getParticipants(): Participant[] {
-  return participantsData.participants;
+  return participantsData.participants as Participant[];
 }
 
 // Get participant by ID
 export function getParticipantById(id: string): Participant | undefined {
-  return participantsData.participants.find((part) => part.id === id);
+  return (participantsData.participants as Participant[]).find((part) => part.id === id);
 }
